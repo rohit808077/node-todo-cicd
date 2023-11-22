@@ -1,4 +1,4 @@
-FROM node:12.2.0-alpine
+FROM image: "trainwithshubham/node-app-test-new:latest"
 WORKDIR app
 COPY . .
 RUN npm install
