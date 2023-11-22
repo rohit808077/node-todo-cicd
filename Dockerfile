@@ -1,4 +1,4 @@
-FROM image: "trainwithshubham/node-app-test-new:latest"
+FROM  "trainwithshubham/node-app-test-new:latest"
 WORKDIR app
 COPY . .
 RUN npm install
