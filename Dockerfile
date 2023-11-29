@@ -1,4 +1,4 @@
-FROM  "node:12.2.0-alpine"
+FROM  "bhosalerohit322/node-todo-app"
 WORKDIR app
 COPY . .
 RUN npm install
