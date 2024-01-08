@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: "bhosalerohit322/node-todo-app"
+    image: "bhosalerohit322/node-todo-cicd"
     ports:
       - "8000:8000"
