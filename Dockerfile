@@ -1,5 +1,5 @@
 
-FROM alpine:latest
+FROM alpine:latest 
 WORKDIR app
 COPY . .
 RUN apk add --no-cache nodejs npm
