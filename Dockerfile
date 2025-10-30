@@ -1,5 +1,5 @@
 
-FROM debian:bullseye-slim
+FROM alpine:latest
 WORKDIR app
 COPY . .
 RUN apk add --no-cache nodejs npm
